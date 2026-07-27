@@ -1,0 +1,222 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.acquireio",
+    "module": "core",
+    "version": "2.4.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "ard2vooexbgxbkdkfc3h4j7f3q"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.emoji",
+          "module": "emoji-appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "pl.droidsonroids.gif",
+          "module": "android-gif-drawable",
+          "version": {
+            "requires": "1.2.20"
+          }
+        },
+        {
+          "group": "androidx.multidex",
+          "module": "multidex",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "androidx.browser",
+          "module": "browser",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "io.socket",
+          "module": "socket.io-client",
+          "version": {
+            "requires": "1.0.0"
+          },
+          "excludes": [
+            {
+              "group": "org.json",
+              "module": "json"
+            }
+          ]
+        },
+        {
+          "group": "com.squareup.picasso",
+          "module": "picasso",
+          "version": {
+            "requires": "2.71828"
+          }
+        },
+        {
+          "group": "com.github.amitshekhariitbhu.Fast-Android-Networking",
+          "module": "android-networking",
+          "version": {
+            "requires": "1.0.4"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "2.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-2.4.1.aar",
+          "url": "core-2.4.1.aar",
+          "size": 18979527,
+          "sha512": "4db0970c900a8e465aebb7a56b753ee0eba5a1b1f867f34e55f4d8f54c8d3044a7ab8b941da57444d7013c29434169ead7ece769024d2a1177cf93a98a71221f",
+          "sha256": "b0252a96f5c3885ee746937003ddb277bfe2dc67798e07f95f0bbe8bd53a2bd4",
+          "sha1": "6270fa2df8a020b4b7e706b956dde80e9f54f200",
+          "md5": "da65b3f8e8b32dfa8ac79b4f89398fdd"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.swiperefreshlayout",
+          "module": "swiperefreshlayout",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-extensions",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "androidx.emoji",
+          "module": "emoji-appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "pl.droidsonroids.gif",
+          "module": "android-gif-drawable",
+          "version": {
+            "requires": "1.2.20"
+          }
+        },
+        {
+          "group": "androidx.multidex",
+          "module": "multidex",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "androidx.browser",
+          "module": "browser",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "io.socket",
+          "module": "socket.io-client",
+          "version": {
+            "requires": "1.0.0"
+          },
+          "excludes": [
+            {
+              "group": "org.json",
+              "module": "json"
+            }
+          ]
+        },
+        {
+          "group": "com.squareup.picasso",
+          "module": "picasso",
+          "version": {
+            "requires": "2.71828"
+          }
+        },
+        {
+          "group": "com.github.amitshekhariitbhu.Fast-Android-Networking",
+          "module": "android-networking",
+          "version": {
+            "requires": "1.0.4"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "2.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-2.4.1.aar",
+          "url": "core-2.4.1.aar",
+          "size": 18979527,
+          "sha512": "4db0970c900a8e465aebb7a56b753ee0eba5a1b1f867f34e55f4d8f54c8d3044a7ab8b941da57444d7013c29434169ead7ece769024d2a1177cf93a98a71221f",
+          "sha256": "b0252a96f5c3885ee746937003ddb277bfe2dc67798e07f95f0bbe8bd53a2bd4",
+          "sha1": "6270fa2df8a020b4b7e706b956dde80e9f54f200",
+          "md5": "da65b3f8e8b32dfa8ac79b4f89398fdd"
+        }
+      ]
+    }
+  ]
+}

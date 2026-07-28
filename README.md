@@ -4,6 +4,8 @@ Public Maven repository for the AcquireSDK Android library (`com.acquireio:core`
 
 ## Using the SDK in your app
 
+Video installation guide: https://youtu.be/TQUzOvgazS0
+
 ```groovy
 repositories {
     maven { url 'https://acquireio.github.io/acquire-sdk-maven' }

@@ -1,0 +1,235 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.acquireio",
+    "module": "core",
+    "version": "2.4.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.emoji",
+          "module": "emoji-appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "pl.droidsonroids.gif",
+          "module": "android-gif-drawable",
+          "version": {
+            "requires": "1.2.20"
+          }
+        },
+        {
+          "group": "androidx.multidex",
+          "module": "multidex",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "androidx.browser",
+          "module": "browser",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "io.socket",
+          "module": "socket.io-client",
+          "version": {
+            "requires": "1.0.0"
+          },
+          "excludes": [
+            {
+              "group": "org.json",
+              "module": "json"
+            }
+          ]
+        },
+        {
+          "group": "com.squareup.picasso",
+          "module": "picasso",
+          "version": {
+            "requires": "2.71828"
+          }
+        },
+        {
+          "group": "com.github.amitshekhariitbhu.Fast-Android-Networking",
+          "module": "android-networking",
+          "version": {
+            "requires": "1.0.4"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "2.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-2.4.4.aar",
+          "url": "core-2.4.4.aar",
+          "size": 19154371,
+          "sha512": "4562c49bd5aee146b9a6978689b76a31f9feb48c1715358200f5fed61116d35733f882dac5f85fca1245af32ba52e9e1c2c08a7e0bb806e9920b4efe60a7961c",
+          "sha256": "a00e534d035620eaddb6532b4fa9adb517a529f0b8cbae6df231bd14ba22f57b",
+          "sha1": "ea7690a0e9c510c9ae9dea60ae146f0bbcf95800",
+          "md5": "fb7ab574541744909a205d1537810c77"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.swiperefreshlayout",
+          "module": "swiperefreshlayout",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-extensions",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "androidx.emoji",
+          "module": "emoji-appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "pl.droidsonroids.gif",
+          "module": "android-gif-drawable",
+          "version": {
+            "requires": "1.2.20"
+          }
+        },
+        {
+          "group": "androidx.multidex",
+          "module": "multidex",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "androidx.browser",
+          "module": "browser",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "io.socket",
+          "module": "socket.io-client",
+          "version": {
+            "requires": "1.0.0"
+          },
+          "excludes": [
+            {
+              "group": "org.json",
+              "module": "json"
+            }
+          ]
+        },
+        {
+          "group": "com.squareup.picasso",
+          "module": "picasso",
+          "version": {
+            "requires": "2.71828"
+          }
+        },
+        {
+          "group": "com.github.amitshekhariitbhu.Fast-Android-Networking",
+          "module": "android-networking",
+          "version": {
+            "requires": "1.0.4"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "2.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-2.4.4.aar",
+          "url": "core-2.4.4.aar",
+          "size": 19154371,
+          "sha512": "4562c49bd5aee146b9a6978689b76a31f9feb48c1715358200f5fed61116d35733f882dac5f85fca1245af32ba52e9e1c2c08a7e0bb806e9920b4efe60a7961c",
+          "sha256": "a00e534d035620eaddb6532b4fa9adb517a529f0b8cbae6df231bd14ba22f57b",
+          "sha1": "ea7690a0e9c510c9ae9dea60ae146f0bbcf95800",
+          "md5": "fb7ab574541744909a205d1537810c77"
+        }
+      ]
+    }
+  ]
+}

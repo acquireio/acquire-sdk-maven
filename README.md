@@ -12,7 +12,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.acquireio:core:2.4.3'
+    implementation 'com.acquireio:core:2.4.4'
 }
 ```
 
